@@ -7,12 +7,12 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tag.Tag.Identified;
 import net.minecraft.util.Hand;
+import net.minecraft.world.World;
 
 public class ExampleShield extends FabricShield
 {
-	public ExampleShield(Settings settings, int cooldownTicks, int durability, Identified<Item> planks)
+	public ExampleShield(Settings settings, int cooldownTicks, int durability, Item planks)
 	{
 		super(settings, cooldownTicks, durability, planks);
 	}

@@ -1,0 +1,16 @@
+{
+  "parent": "item/generated",
+  "gui_light": "front",
+  "textures": {
+    "particle": "block/dark_oak_planks",
+    "layer0": "modid:item/example_shield"
+  },
+ "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "item/shield_blocking"
+    }
+  ]
+}

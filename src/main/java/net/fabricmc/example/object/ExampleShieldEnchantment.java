@@ -17,7 +17,7 @@ import net.minecraft.world.dimension.DimensionType;
 
 public class ExampleShieldEnchantment extends FabricShieldEnchantment
 {
-	public ExampleShieldEnchantment(Rarity weight, EnchantmentTarget type, List<Item> acceptedItems)
+	public ExampleShieldEnchantment(Weight weight, EnchantmentTarget type, List<Item> acceptedItems)
 	{
 		super(weight, type, acceptedItems);
 	}
